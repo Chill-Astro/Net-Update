@@ -19,7 +19,9 @@ Net-Update is a readymade set of Python, C# & Java Classes for Easy Implementati
 Here appName is the name of your app and gistURL is the public gist being used for update checking.    
 CURRENT_VERSION, appName & gistURL are string Variables. Arguments must be in "".
 
-[ OR ] 
+<p align="center">
+  ---------------------[ OR ]---------------------
+</p>
 
 Copy the code into your class :
 

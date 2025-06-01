@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetUpdate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f45941ccb4cc56745f3a226cdccf50e25486733")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec7fa23dfae7c9228dff7d133979b38fee004fd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetUpdate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetUpdate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,7 @@ Net-Update is a readymade set of Python, C# & Java Classes for Easy Implementati
 
 ---
 
-## Python :
+## Python : // Not Ready Yet
 
 1.  **Download :** Clone or download the `NetUpdate.py` file from this repository.
 2.  **Include :** Add the `NetUpdate.py` file to your Python Project.
@@ -66,12 +66,15 @@ Arguments must be in "" as they are String variables!
 
 ---
 
-## C# [ .NET ] :
+## C# [ .NET ] : // Not Ready Yet
 
 1.  **Download :** Clone or download the `Net_Update.cs` file from this repository.
 2.  **Include :** Add the `Net_Update.cs` file to your Solution.
-3.  **Access Method :** Since the update() method is static, no object creation is needed. Use the following code :
-
+3.  **Add Nuget Package :** System.Net.Http is required to be added to the project.
+    ```C#
+    dotnet add package System.Net.Http
+    ```
+4.  **Access Method :** Since the update() method is static, no object creation is needed. Use the following code :  
 
     ```C#
     Net-Update.update(appName, appVer, rawGistURL);
@@ -82,7 +85,7 @@ Arguments must be in "" as they are String variables!
 
 ---
 
-## Java : 
+## Java : // OUT NOW!
 
 1.  **Download :** Clone or download the `Net_Update.java` file from this repository.
 2.  **Include :** Add the `Net_Update.java` file to your Java project.

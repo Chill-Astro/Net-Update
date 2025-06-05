@@ -31,9 +31,10 @@ Copy the code into your class :
 
         
     import requests
-    gistURL = "URL"
-    CURRENT_VERSION = "x.y"
+    gistURL = "" # Insert Raw Gist URL here
+    appVer = "" # Insert App Version Here
     appName = "" # Insert App Name here
+
     def update() :
     try:
         response = requests.get(gistURL, timeout=5) # Fetch version file, timeout after 5 seconds
@@ -60,36 +61,37 @@ Copy the code into your class :
               "------------------------")
         
     
-Here appName is the name of your app and gistURL is the public gist being used for update checking.    
-CURRENT_VERSION, appName & gistURL are string Variables. Arguments must be in "".
+Here appName is the name of your app, appVer is it's version and rawGistURL is the public gist being used for update checking.    
+Arguments must be in "" as they are String variables!
 
 ---
 
 ## C# [ .NET ] :
 
-1.  **Download :** Clone or download the `NetUpdate.cs` file from this repository.
-2.  **Include :** Add the `NetUpdate.cs` file to your Solution.
+1.  **Download :** Clone or download the `Net_Update.cs` file from this repository.
+2.  **Include :** Add the `Net_Update.cs` file to your Solution.
 3.  **Access Method :** Since the update() method is static, no object creation is needed. Use the following code :
 
 
     ```C#
-    NetUpdate.update(appName, gistURL);
+    Net-Update.update(appName, appVer, rawGistURL);
     ```
 
-Here appName is the name of your app and gistURL is the public gist being used for update checking.    
-CURRENT_VERSION, appName & gistURL are string Variables. Arguments must be in "".
+Here appName is the name of your app, appVer is it's version and rawGistURL is the public gist being used for update checking.    
+Arguments must be in "" as they are String variables!
 
 ---
 
 ## Java : 
 
-1.  **Download :** Clone or download the `NetUpdate.java` file from this repository.
-2.  **Include :** Add the `NetUpdate.java` file to your Java project.
+1.  **Download :** Clone or download the `Net_Update.java` file from this repository.
+2.  **Include :** Add the `Net_Update.java` file to your Java project.
 3.  **Access Method :** Since the update() method is static, no object creation is needed. Use the following code :
 
 
     ```java
-    NetUpdate.update(appName, gistURL);
+    Net_Update.update(appName, appVer, rawGistURL);
     ```
-Here appName is the name of your app and gistURL is the public gist being used for update checking.    
-CURRENT_VERSION, appName & gistURL are String Variables. Arguments must be in "".
+
+Here appName is the name of your app, appVer is it's version and rawGistURL is the public gist being used for update checking.    
+Arguments must be in "" as they are String variables!

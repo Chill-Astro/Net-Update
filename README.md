@@ -3,7 +3,7 @@
 </p>
 Net-Update is a readymade set of Python, C# & Java Classes for Easy Implementation of Update Checking in CUI Apps.
 
-[ NOTE ] : Net-Update is in Development!
+[ NOTE ] : Net-Update Python is in Development! C# and Java can be aceessed by cloning the main branch.
 
 ---
 
@@ -66,7 +66,7 @@ Arguments must be in "" as they are String variables!
 
 ---
 
-## C# [ .NET ] : // Not Ready Yet
+## C# [ .NET ] : // OUT NOW!
 
 1.  **Download :** Clone or download the `Net_Update.cs` file from this repository.
 2.  **Include :** Add the `Net_Update.cs` file to your Solution.

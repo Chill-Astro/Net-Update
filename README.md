@@ -98,3 +98,11 @@ Arguments must be in "" as they are String variables!
 
 Here appName is the name of your app, appVer is it's version and rawGistURL is the public gist being used for update checking.    
 Arguments must be in "" as they are String variables!
+
+---
+
+## Note from Developer :
+
+Appreciate my effort? Why not leave a Star ⭐ ! Also if forked, please credit me for my effort and thanks if you do! :)
+
+---

@@ -17,7 +17,7 @@ Net-Update is a readymade set of Python, C# & Java Classes for Easy Implementati
     appName = "" # Insert App Name here
     appVer = "" # Insert App Version Here
     rawGistURL = "" # Insert Raw Gist URL here
-    Net_Update.UpdateCheck.update(appName,appVer,rawGistURL)
+    Net_Update.update(appName,appVer,rawGistURL)
 
     ```
 

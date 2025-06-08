@@ -1,9 +1,9 @@
 ﻿using System.Net.Http;
 using System;
 
-namespace NetUpdate
+namespace Net_Update
 {
-    public static class NetUpdate
+    public static class Net_Update // Net-Update v1.0 by Chill-Astro
     {
         private static readonly HttpClient client = new HttpClient();
         static void update(string appName, string appVer, string rawGistURL)

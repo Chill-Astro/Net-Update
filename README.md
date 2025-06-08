@@ -3,14 +3,12 @@
 </p>
 Net-Update is a readymade set of Python, C# & Java Classes for Easy Implementation of Update Checking in CUI Apps.
 
-[ NOTE ] : Net-Update Python is in Development! C# and Java can be aceessed by cloning the main branch.
-
 ---
 
 ## Python :
 
-1.  **Download :** Clone or download the `NetUpdate.py` file from this repository.
-2.  **Include :** Add the `NetUpdate.py` file to your Python Project.
+1.  **Download :** Clone or download the `Net_Update.py` file from this repository.
+2.  **Include :** Add the `Net_Update.py` file to your Python Project.
 3.  **Access Method :** Use the following code to import the class :
 
     ```Python
